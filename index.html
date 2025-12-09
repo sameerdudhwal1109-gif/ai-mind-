@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Mind — Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="logo-wrap">
+        <img src="logo.png" alt="AI Mind" class="logo">
+      </div>
+      <div class="brand">
+        <div class="title">AI Mind</div>
+        <div class="sub">Artificial Intelligence</div>
+      </div>
+    </header>
+
+    <main class="card">
+      <div id="chat" class="chat"></div>
+      <div id="typing" class="typing"></div>
+
+      <form id="form" class="input-row" onsubmit="return false;">
+        <input id="question" autocomplete="off" placeholder="Type your question..." />
+        <button id="sendBtn" type="button">Ask</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <small>Powered by AI Mind</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
